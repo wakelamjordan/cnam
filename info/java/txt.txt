@@ -1,0 +1,5 @@
+docker run -p 8080:8080 -v "$(pwd)/webapp:/usr/local/tomcat/webapps" java_dev
+
+docker run -it -p 8080:8080 --rm -v "/c/Users/jwake/Desktop/cnam/info/java/Exo_Java_BDD_2023:/usr/local/tomcat/webapps/ROOT" java_dev
+
+/c/Users/jwake/Desktop/cnam/info/java/Exo_Java_BDD_2023 

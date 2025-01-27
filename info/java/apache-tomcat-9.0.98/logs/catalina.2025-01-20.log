@@ -1,0 +1,126 @@
+20-Jan-2025 23:49:20.213 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.98
+20-Jan-2025 23:49:20.219 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Dec 5 2024 19:50:29 UTC
+20-Jan-2025 23:49:20.220 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.98.0
+20-Jan-2025 23:49:20.220 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+20-Jan-2025 23:49:20.220 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+20-Jan-2025 23:49:20.220 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86
+20-Jan-2025 23:49:20.221 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files (x86)\Java\jre1.8.0_431
+20-Jan-2025 23:49:20.221 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_431-b10
+20-Jan-2025 23:49:20.221 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+20-Jan-2025 23:49:20.221 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:49:20.221 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:49:20.225 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\conf\logging.properties
+20-Jan-2025 23:49:20.225 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jan-2025 23:49:20.225 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+20-Jan-2025 23:49:20.226 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jan-2025 23:49:20.226 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+20-Jan-2025 23:49:20.226 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:49:20.227 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:49:20.227 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\temp
+20-Jan-2025 23:49:20.247 AVERTISSEMENT [main] org.apache.catalina.core.AprLifecycleListener.init La librairie Apache Tomcat Native basée sur APR n'a pas pu être chargée, l'erreur retournée est [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+		at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+		at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+		at java.lang.ClassLoader.loadLibrary(Unknown Source)
+		at java.lang.Runtime.load0(Unknown Source)
+		at java.lang.System.load(Unknown Source)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:49)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:260)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:212)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+20-Jan-2025 23:49:20.950 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:49:20.979 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1051] millisecondes
+20-Jan-2025 23:49:21.025 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+20-Jan-2025 23:49:21.026 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.98]
+20-Jan-2025 23:49:21.040 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\docs]
+20-Jan-2025 23:49:21.609 AVERTISSEMENT [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [358] millisecondes
+20-Jan-2025 23:49:21.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\docs] de l'application web s'est terminé en [594] ms
+20-Jan-2025 23:49:21.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\examples]
+20-Jan-2025 23:49:22.026 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\examples] de l'application web s'est terminé en [391] ms
+20-Jan-2025 23:49:22.027 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\host-manager]
+20-Jan-2025 23:49:22.061 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\host-manager] de l'application web s'est terminé en [34] ms
+20-Jan-2025 23:49:22.061 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\manager]
+20-Jan-2025 23:49:22.086 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\manager] de l'application web s'est terminé en [24] ms
+20-Jan-2025 23:49:22.086 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\ROOT]
+20-Jan-2025 23:49:22.314 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+20-Jan-2025 23:49:22.321 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\ROOT] de l'application web s'est terminé en [234] ms
+20-Jan-2025 23:49:22.325 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:49:22.344 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1364] millisecondes
+20-Jan-2025 23:50:14.526 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+20-Jan-2025 23:50:15.790 INFOS [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+20-Jan-2025 23:50:15.838 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:50:15.849 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:59:27.816 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.98
+20-Jan-2025 23:59:27.819 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Dec 5 2024 19:50:29 UTC
+20-Jan-2025 23:59:27.819 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.98.0
+20-Jan-2025 23:59:27.820 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+20-Jan-2025 23:59:27.820 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+20-Jan-2025 23:59:27.820 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     x86
+20-Jan-2025 23:59:27.820 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files (x86)\Java\jre1.8.0_431
+20-Jan-2025 23:59:27.821 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      1.8.0_431-b10
+20-Jan-2025 23:59:27.821 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+20-Jan-2025 23:59:27.821 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:59:27.821 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:59:27.822 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\conf\logging.properties
+20-Jan-2025 23:59:27.822 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jan-2025 23:59:27.822 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+20-Jan-2025 23:59:27.823 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jan-2025 23:59:27.823 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+20-Jan-2025 23:59:27.823 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:59:27.824 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98
+20-Jan-2025 23:59:27.824 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\temp
+20-Jan-2025 23:59:27.827 AVERTISSEMENT [main] org.apache.catalina.core.AprLifecycleListener.init La librairie Apache Tomcat Native basée sur APR n'a pas pu être chargée, l'erreur retournée est [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+		at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+		at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+		at java.lang.ClassLoader.loadLibrary(Unknown Source)
+		at java.lang.Runtime.load0(Unknown Source)
+		at java.lang.System.load(Unknown Source)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:49)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:260)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:212)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:143)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:121)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:713)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+		at java.lang.reflect.Method.invoke(Unknown Source)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+20-Jan-2025 23:59:28.213 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:59:28.235 INFOS [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [616] millisecondes
+20-Jan-2025 23:59:28.274 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+20-Jan-2025 23:59:28.274 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.98]
+20-Jan-2025 23:59:28.294 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\docs]
+20-Jan-2025 23:59:29.033 AVERTISSEMENT [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [455] millisecondes
+20-Jan-2025 23:59:29.061 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\docs] de l'application web s'est terminé en [768] ms
+20-Jan-2025 23:59:29.062 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\examples]
+20-Jan-2025 23:59:29.467 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\examples] de l'application web s'est terminé en [404] ms
+20-Jan-2025 23:59:29.468 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\host-manager]
+20-Jan-2025 23:59:29.503 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\host-manager] de l'application web s'est terminé en [35] ms
+20-Jan-2025 23:59:29.504 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\manager]
+20-Jan-2025 23:59:29.536 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\manager] de l'application web s'est terminé en [32] ms
+20-Jan-2025 23:59:29.536 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\ROOT]
+20-Jan-2025 23:59:29.730 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès ; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+20-Jan-2025 23:59:29.762 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\jwake\Desktop\cnam\info\java\apache-tomcat-9.0.98\webapps\ROOT] de l'application web s'est terminé en [226] ms
+20-Jan-2025 23:59:29.770 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:59:29.798 INFOS [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1561] millisecondes
+20-Jan-2025 23:59:31.743 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+20-Jan-2025 23:59:32.558 INFOS [Thread-2] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+20-Jan-2025 23:59:32.584 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+20-Jan-2025 23:59:32.594 INFOS [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
